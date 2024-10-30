@@ -104,41 +104,43 @@
 <!-- youtube section -->
 <section id="youtube-videos" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4" style="color: #001F3F; font-weight:bold;">Our Videos</h2>
+        <h2 class="text-center text-white mb-4">Our Videos</h2>
         <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="video-wrapper">
-                    <iframe
-                        src="https://www.youtube.com/embed/gayPxgYAfyc"
-                        class="w-100"
-                        height="215"
-                        frameborder="0"
+            <div class="col-md-4 mb-4" >
+                <div class="video-wrapper" style="height: 240px;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/gayPxgYAfyc" 
+                        class="w-100" 
+                        height="300" 
+                        frameborder="0" 
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" >
+                <div class="video-wrapper "style="height: 240px;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/vvWlc0E4FMA" 
+                        class="w-100" 
+                        height="300" 
+                        frameborder="0" 
                         allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="video-wrapper">
-                    <iframe
-                        src="https://www.youtube.com/embed/vvWlc0E4FMA"
-                        class="w-100"
-                        height="215"
-                        frameborder="0"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="video-wrapper">
-                    <iframe
-                        src="https://www.youtube.com/embed/yOqgWKs-puU"
-                        class="w-100"
-                        height="215"
-                        frameborder="0"
+                <div class="video-wrapper "style="height: 240px;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/yOqgWKs-puU" 
+                        class="w-100" 
+                        height="300" 
+                        frameborder="0" 
                         allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 
 
 
@@ -180,7 +182,7 @@
                                 <div class="card-body d-flex flex-column justify-content-between">
                                     <h5 class="card-title text-warning font-weight-bold">Wedding Video Shoot</h5>
                                     <p class="card-text text-light">We provide comprehensive wedding video shoot services that capture every moment of your special day. Our skilled videographers use the latest techniques to create memorable videos.</p>
-                                    <a href="tel:+919760906036" class="btn button">Call Now</a>
+                                    <a href="tel:9760906036" class="btn button">Call Now</a>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +194,7 @@
                                 <div class="card-body d-flex flex-column justify-content-between">
                                     <h5 class="card-title text-warning font-weight-bold">Candid Photoshoot</h5>
                                     <p class="card-text text-light">Our candid photoshoots focus on capturing the raw and genuine moments of your life. We believe that the best memories are those that unfold naturally, allowing us to document your unique story.</p>
-                                    <a href="tel:+919760906036" class="btn button">Call Now</a>
+                                    <a href="tel:9760906036" class="btn button">Call Now</a>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +204,7 @@
                                 <div class="card-body d-flex flex-column justify-content-between">
                                     <h5 class="card-title text-warning font-weight-bold">Pre-Wedding Photoshoot</h5>
                                     <p class="card-text text-light">Celebrate your love story with our pre-wedding photoshoot services. We create beautiful settings that reflect your personality and love, ensuring stunning photographs that you will cherish forever.</p>
-                                    <a href="tel:+919760906036" class="btn button">Call Now</a>
+                                    <a href="tel:9760906036" class="btn button">Call Now</a>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +218,7 @@
                                 <div class="card-body d-flex flex-column justify-content-between">
                                     <h5 class="card-title text-warning font-weight-bold">Cinematography</h5>
                                     <p class="card-text text-light ">We capture your moments with cinematic flair, ensuring that each shot tells a story. Our cinematography services provide high-quality videos that reflect the emotions of your special day.</p>
-                                    <a href="tel:+919760906036" class="btn  button">Call Now</a>
+                                    <a href="tel:9760906036" class="btn  button">Call Now</a>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +228,7 @@
                                 <div class="card-body d-flex flex-column justify-content-between">
                                     <h5 class="card-title text-warning font-weight-bold">Drone Shooting</h5>
                                     <p class="card-text text-light">Our drone shooting services offer a unique perspective on your events. With stunning aerial views, we capture breathtaking shots that enhance your memories and create a spectacular visual story.</p>
-                                    <a href="tel:+919760906036" class="btn button">Call Now</a>
+                                    <a href="tel:9760906036" class="btn button">Call Now</a>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +238,7 @@
                                 <div class="card-body d-flex flex-column justify-content-between">
                                     <h5 class="card-title text-warning font-weight-bold">Wall LED</h5>
                                     <p class="card-text text-light">Our high-quality Wall LED services provide vivid displays, perfect for showcasing visuals at events, advertisements, and other gatherings. Let us light up your events with our brilliant LED installations.</p>
-                                    <a href="tel:+919760906036" class="btn button">Call Now</a>
+                                    <a href="tel:9760906036" class="btn button">Call Now</a>
                                 </div>
                             </div>
                         </div>
