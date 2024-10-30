@@ -2,12 +2,12 @@
 <!-- Footer -->
 <footer class="py-4" style="background-color: #001F3F; color: #fff;">
     <div class="container text-center">
-        <p>&copy; 2024 Portfolio. All rights reserved.</p>
-        <p>Follow us on:
+        <p>&copy; 2024 Sai Pictures. All rights reserved to <a href="https://techcov.in" style="text-decoration: none;" class="text-warning"><strong>TECHCO V.</strong></a></p>
+        <!-- <p>Follow us on:
             <a href="#" class="text-white mx-2">Facebook</a> |
             <a href="#" class="text-white mx-2">Instagram</a> |
             <a href="#" class="text-white mx-2">Twitter</a>
-        </p>
+        </p> -->
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
