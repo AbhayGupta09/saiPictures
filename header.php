@@ -44,17 +44,17 @@
 
 <!-- Offcanvas Sidebar -->
 <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #001F3F;">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+    <div class="offcanvas-header ">
+        <h5 class="offcanvas-title mx-auto" id="offcanvasNavbarLabel">Menu</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body">
-        <ul class="navbar-nav flex-grow-1 pe-3">
+    <div class="offcanvas-body mx-auto">
+        <ul class="navbar-nav flex-grow-1 pe-3 text-center">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link " href="#about">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#portfolio">Portfolio</a>

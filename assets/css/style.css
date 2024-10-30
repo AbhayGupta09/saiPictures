@@ -1,6 +1,7 @@
-.logo{
+.logo {
     margin-left: 70px;
 }
+
 #about h2 {
     font-weight: bold;
     font-size: 40px;
@@ -15,35 +16,46 @@
     margin: 0 20px;
 }
 
-.button{
-background-color:  #EAD8B1;
-font-weight: bolder;
+.button {
+    background-color: #EAD8B1;
+    font-weight: bolder;
 }
 
 .nav-link {
-    color: #EAD8B1; /* Customize nav link color */
+    color: #EAD8B1;
+    /* Customize nav link color */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
 
 .nav-link:hover {
-    color: #ffffff; /* Customize hover color */
+    color: #ffffff;
+    /* Customize hover color */
 }
+
 .map-container {
-    height: 450px; /* Set height of the map */
-    width: 100%; /* Full width */
+    height: 450px;
+    /* Set height of the map */
+    width: 100%;
+    /* Full width */
     border-radius: 20px;
-    overflow: hidden; /* Prevents overflow of the iframe */
+    overflow: hidden;
+    /* Prevents overflow of the iframe */
 }
 
 iframe {
-    border: 0; /* Remove border around iframe */
-    height: 100%; /* Full height of the container */
-    width: 100%; /* Full width of the container */
+    border: 0;
+    /* Remove border around iframe */
+    height: 100%;
+    /* Full height of the container */
+    width: 100%;
+    /* Full width of the container */
 }
- @media screen and (max-width:500px) {
-    .logo{
+
+@media screen and (max-width:500px) {
+    .logo {
         margin-left: 20px;
     }
-   
- }
+
+
+}
