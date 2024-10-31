@@ -13,6 +13,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/611235697c399a2f15137e994892c4126cab6948",
                 "reference": "611235697c399a2f15137e994892c4126cab6948",
+
                 "shasum": ""
             },
             "require": {
@@ -44,6 +45,7 @@
             },
             "time": "2024-10-21T09:42:14+00:00",
             "default-branch": true,
+
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -76,6 +78,7 @@
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
                 "source": "https://github.com/PHPMailer/PHPMailer/tree/master"
+
             },
             "funding": [
                 {

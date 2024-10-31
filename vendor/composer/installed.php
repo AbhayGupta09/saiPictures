@@ -5,6 +5,7 @@
         'version' => 'dev-main',
         'reference' => '42b6863a977107debf3fe63c522432e7faaed48c',
         'type' => 'project',
+
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
@@ -26,9 +27,11 @@
             'version' => 'dev-main',
             'reference' => '42b6863a977107debf3fe63c522432e7faaed48c',
             'type' => 'project',
+
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+
     ),
 );

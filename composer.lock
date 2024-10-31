@@ -18,6 +18,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/611235697c399a2f15137e994892c4126cab6948",
                 "reference": "611235697c399a2f15137e994892c4126cab6948",
+
                 "shasum": ""
             },
             "require": {
@@ -48,6 +49,7 @@
                 "thenetworg/oauth2-azure": "Needed for Microsoft XOAUTH2 authentication"
             },
             "default-branch": true,
+
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -79,6 +81,7 @@
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
                 "source": "https://github.com/PHPMailer/PHPMailer/tree/master"
+
             },
             "funding": [
                 {
@@ -87,6 +90,7 @@
                 }
             ],
             "time": "2024-10-21T09:42:14+00:00"
+
         }
     ],
     "packages-dev": [],
@@ -100,6 +104,7 @@
     "platform": {
         "php": "^8.1"
     },
+
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

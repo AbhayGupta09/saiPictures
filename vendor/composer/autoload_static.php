@@ -5,6 +5,7 @@
 namespace Composer\Autoload;
 
 class ComposerStaticInit2781c164864fdf040a9e4212b3a48151
+
 {
     public static $prefixLengthsPsr4 = array (
         'P' => 
@@ -15,6 +16,7 @@ class ComposerStaticInit2781c164864fdf040a9e4212b3a48151
         array (
             'App\\' => 4,
         ),
+
     );
 
     public static $prefixDirsPsr4 = array (
@@ -26,6 +28,7 @@ class ComposerStaticInit2781c164864fdf040a9e4212b3a48151
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
+
     );
 
     public static $classMap = array (
@@ -38,6 +41,7 @@ class ComposerStaticInit2781c164864fdf040a9e4212b3a48151
             $loader->prefixLengthsPsr4 = ComposerStaticInit2781c164864fdf040a9e4212b3a48151::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit2781c164864fdf040a9e4212b3a48151::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit2781c164864fdf040a9e4212b3a48151::$classMap;
+
 
         }, null, ClassLoader::class);
     }

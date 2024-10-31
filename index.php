@@ -1,5 +1,7 @@
 <?php include 'header.php'; ?>
 
+<div class="main">
+    <section id="gallery" class="container my-1">
 
 <section id="gallery" class="container my-1">
 
@@ -19,18 +21,18 @@
             </div>
             <div class="carousel-item">
                 <img src="assets/images/sai-picture5.png" class="d-block w-100" alt="Gallery Image 5 sai-picture">
+
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</section>
+    </section>
 
 <!-- About Us -->
 <section id="about" class="py-5" style="background-color: #EAD8B1;">
@@ -44,10 +46,10 @@
             </div>
             <div class="col-lg-6 text-center">
                 <img src="assets/images/sai-picture-about-us.png" alt="About Us sai-picture" class="img-fluid rounded" style="max-width: 80%; border: 5px solid #6A9AB0;">
+  
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 <!-- Our Portfolio -->
@@ -82,24 +84,26 @@
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">Haldi Shoot</h5>
                                     <p class="card-text text-dark">Cherishing the rituals that add color to your wedding celebrations.</p>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
-</section>
+    </section>
 
 <!-- youtube section -->
 <section id="youtube-videos" class="py-5 wow animate__animated animate__backInLeft">
@@ -134,11 +138,11 @@
                         height="300" 
                         frameborder="0" 
                         allowfullscreen></iframe>
+
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -162,10 +166,10 @@
                     We pride ourselves on our attention to detail, ensuring that you receive not only beautiful images but also an unforgettable experience.
                 </p>
 
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 <!-- Services -->
@@ -183,9 +187,9 @@
                                     <h5 class="card-title text-warning font-weight-bold">Wedding Video Shoot</h5>
                                     <p class="card-text text-light">We provide comprehensive wedding video shoot services that capture every moment of your special day. Our skilled videographers use the latest techniques to create memorable videos.</p>
                                     <a href="tel:9760906036" class="btn button">Call Now</a>
+
                                 </div>
                             </div>
-                        </div>
 
 
                         <div class="col-md-4 mb-4">
@@ -205,6 +209,7 @@
                                     <h5 class="card-title text-warning font-weight-bold">Pre-Wedding Photoshoot</h5>
                                     <p class="card-text text-light">Celebrate your love story with our pre-wedding photoshoot services. We create beautiful settings that reflect your personality and love, ensuring stunning photographs that you will cherish forever.</p>
                                     <a href="tel:9760906036" class="btn button">Call Now</a>
+
                                 </div>
                             </div>
                         </div>
@@ -239,61 +244,72 @@
                                     <h5 class="card-title text-warning font-weight-bold">Wall LED</h5>
                                     <p class="card-text text-light">Our high-quality Wall LED services provide vivid displays, perfect for showcasing visuals at events, advertisements, and other gatherings. Let us light up your events with our brilliant LED installations.</p>
                                     <a href="tel:9760906036" class="btn button">Call Now</a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#services-slider"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#services-slider"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#services-slider" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#services-slider" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
-</section>
+    </section>
 
 
 <!-- Contact Form -->
 
-<section id="contact" class="container-fluid my-5" style="background-color: #001F3F;">
-    <h2 class="text-center mb-4 ">Contact Us</h2>
-    <div class="row container mx-auto">
-        <div class="col-md-6 pb-5 ">
-            <form id="contactForm" action="submit_form.php" method="POST">
-                <div class="mb-3">
-                    <label for="name " class="form-label text-light">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label text-light">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="subject" class="form-label text-light">Subject</label>
-                    <input type="text" class="form-control" id="subject" name="subject" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label text-light">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-warning">Send Message</button>
-            </form>
-        </div>
 
-        <<div class="col-md-5 pb-5 ">
-            <!-- Google Map -->
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d882.2673865865746!2d78.64715686957011!3d27.807630098507854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974e018676c5071%3A0x2a8887a6c2ba48e!2sKasganj%2C%20Uttar%20Pradesh%20207123!5e0!3m2!1sen!2sin!4v1730287922433!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section id="contact" class="container-fluid my-5" style="background-color: #001F3F;">
+        <h2 class="text-center mb-4 ">Contact Us</h2>
+        <div class="row container mx-auto">
+            <div class="col-md-6 pb-5 ">
+                <div id="loader" style="display:none;" class="loader"></div>
+                 
+                <form id="contactForm" method="POST">
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label text-light">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-light">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label text-light">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label text-light">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Send Message</button>
+                </form>
+
+                <div id="successMessage" style="display:none; margin-top: 20px;"></div>
+
             </div>
-    </div>
-    </div>
-</section>
 
+            <div class="col-md-5 pb-5 ">
+                <!-- Google Map -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d882.2673865865746!2d78.64715686957011!3d27.807630098507854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974e018676c5071%3A0x2a8887a6c2ba48e!2sKasganj%2C%20Uttar%20Pradesh%20207123!5e0!3m2!1sen!2sin!4v1730287922433!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+    </section>
+</div>
 
 
 <?php include 'footer.php'; ?>

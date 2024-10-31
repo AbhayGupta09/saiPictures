@@ -63,6 +63,7 @@ class SMTP
      * *excluding* a trailing CRLF break.
      *
      * @see https://www.rfc-editor.org/rfc/rfc5321#section-4.5.3.1.6
+
      *
      * @var int
      */
@@ -73,6 +74,7 @@ class SMTP
      * *including* a trailing CRLF line break.
      *
      * @see https://www.rfc-editor.org/rfc/rfc5321#section-4.5.3.1.5
+
      *
      * @var int
      */
@@ -374,6 +376,7 @@ class SMTP
         //Anything other than a 220 response means something went wrong
         //RFC 5321 says the server will wait for us to send a QUIT in response to a 554 error
         //https://www.rfc-editor.org/rfc/rfc5321#section-3.1
+
         if ($responseCode === 554) {
             $this->quit();
         }
@@ -583,6 +586,7 @@ class SMTP
                 //Send encoded username and password
                 if (
                     //Format from https://www.rfc-editor.org/rfc/rfc4616#section-2
+
                     //We skip the first field (it's forgery), so the string starts with a null byte
                     !$this->sendCommand(
                         'User & Password',
@@ -796,6 +800,7 @@ class SMTP
             foreach ($lines_out as $line_out) {
                 //Dot-stuffing as per RFC5321 section 4.5.2
                 //https://www.rfc-editor.org/rfc/rfc5321#section-4.5.2
+
                 if (!empty($line_out) && $line_out[0] === '.') {
                     $line_out = '.' . $line_out;
                 }
