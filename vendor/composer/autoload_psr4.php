@@ -7,8 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
-<<<<<<< HEAD
-=======
     'App\\' => array($baseDir . '/app'),
->>>>>>> 725e91a16b19cc4ca1db394c5592f78b7b170eec
 );
