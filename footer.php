@@ -13,7 +13,8 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/my.js"></script>
+<script src="assets/js/index.js"></script>
+
 
 <script>
     // Close the offcanvas menu when clicking on a link
@@ -42,7 +43,6 @@
 </script>
 
 <!-- Google Maps JavaScript API -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 <script>
     function initMap() {
         // Specify the location
@@ -61,6 +61,9 @@
             title: "Our Location", // You can change the title
         });
     }
+</script>
+<script>
+    new WOW().init();
 </script>
 
 
