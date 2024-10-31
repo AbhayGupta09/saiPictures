@@ -1,65 +1,125 @@
+
 .logo {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 #about h2 {
-    font-weight: bold;
-    font-size: 40px;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(227, 188, 120, 0.4);
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(227, 188, 120, 0.4);
 }
 
 #about p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    text-align: center;
-    margin: 0 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 20px;
 }
 
 .button {
-    background-color: #EAD8B1;
-    font-weight: bolder;
+  background-color: #ead8b1;
+  font-weight: bolder;
 }
-
+.nav-bar {
+  background-color: #001f3f;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+  height: 75px;
+}
+.main {
+    position: relative;
+    top: 80px;
+  }
 .nav-link {
-    color: #EAD8B1;
-    /* Customize nav link color */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  color: #ead8b1;
+  /* Customize nav link color */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .nav-link:hover {
-    color: #ffffff;
-    /* Customize hover color */
+  color: #ffffff;
+  /* Customize hover color */
 }
 
 .map-container {
-    height: 450px;
-    /* Set height of the map */
-    width: 100%;
-    /* Full width */
-    border-radius: 20px;
-    overflow: hidden;
-    /* Prevents overflow of the iframe */
+  height: 450px;
+  /* Set height of the map */
+  width: 100%;
+  /* Full width */
+  border-radius: 20px;
+  overflow: hidden;
+  /* Prevents overflow of the iframe */
 }
 
 iframe {
-    border: 0;
-    /* Remove border around iframe */
-    height: 100%;
-    /* Full height of the container */
-    width: 100%;
-    /* Full width of the container */
+  border: 0;
+  /* Remove border around iframe */
+  height: 100%;
+  /* Full height of the container */
+  width: 100%;
+  /* Full width of the container */
 }
 .youtube-videos{
     height: 415px;
 }
 
+/* Loader full-screen overlay */
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:  #001732; /* Background color of loader */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Keep it on top */
+}
 
-@media screen and (max-width:500px) {
-    .logo {
-        margin-left: 20px;
-    }
+/* Spinner animation */
+.spinner {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #000000; /* Light border */
+    border-top: 5px solid #f9b934; /* Highlighted color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
 
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
+@media screen and (max-width: 500px) {
+  .logo {
+    margin-left: 20px;
+  }
+}
+
+.video-wrapper {
+  height: 220px;
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light gray background */
+    border-top: 8px solid #e6e31b; /* Blue color for the spinner */
+    border-radius: 50%;
+    width: 80px; /* Loader width */
+    height: 80px; /* Loader height */
+    animation: spin 1s linear infinite; /* Animation for spinning effect */
+    position: relative; /* Position it as needed */
+    top: 10%; /* Center vertically */
+    left: 40%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position */
+    z-index: 9999; /* Ensure it appears above other elements */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

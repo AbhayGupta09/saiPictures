@@ -3,7 +3,7 @@
         'name' => 'techcov/sai',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '42b6863a977107debf3fe63c522432e7faaed48c',
+        'reference' => '3dc1d06aae9a82eff00ac1e3daac114bcce2be2f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -24,7 +24,7 @@
         'techcov/sai' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '42b6863a977107debf3fe63c522432e7faaed48c',
+            'reference' => '3dc1d06aae9a82eff00ac1e3daac114bcce2be2f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
