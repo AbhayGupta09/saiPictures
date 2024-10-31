@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->send();
 
         // Prepare the thank-you email for the user
-        $mail->clearAddresses(); // Clear previous addresses
+        // $mail->clearAddresses(); // Clear previous addresses
         $mail->addAddress($email); // Add the user's email
 
         // Sender for the thank-you email
