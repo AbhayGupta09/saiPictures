@@ -138,6 +138,46 @@
             </div>
         </div>
     </section>
+<!-- youtube section -->
+<section id="youtube-videos" class="py-5">
+    <div class="container">
+        <h2 class="text-center text-white mb-4">Our Videos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4" >
+                <div class="video-wrapper" style="height: 240px;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/gayPxgYAfyc" 
+                        class="w-100" 
+                        height="300" 
+                        frameborder="0" 
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" >
+                <div class="video-wrapper "style="height: 240px;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/vvWlc0E4FMA" 
+                        class="w-100" 
+                        height="300" 
+                        frameborder="0" 
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="video-wrapper "style="height: 240px;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/yOqgWKs-puU" 
+                        class="w-100" 
+                        height="300" 
+                        frameborder="0" 
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 
 

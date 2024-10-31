@@ -63,6 +63,10 @@ iframe {
   width: 100%;
   /* Full width of the container */
 }
+.youtube-videos{
+    height: 415px;
+}
+
 
 @media screen and (max-width: 500px) {
   .logo {
